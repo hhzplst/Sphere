@@ -11,7 +11,7 @@ namespace Sphere{
             testSphere.Radius = 3.5;
 
             Console.WriteLine("This is a Sphere at center ({0}, {1}, {2}).", testSphere.Xcoordinate, testSphere.Ycoordinate, testSphere.Zcoordinate);
-            Console.WriteLine("The Sphere has volumn of {0} and surface are of {1}.", testSphere.CalculateVolume(), testSphere.CalculateSurface());
+            Console.WriteLine("The Sphere has volumn of {0:f} and surface are of {1:f}.", testSphere.CalculateVolume(), testSphere.CalculateSurface());
         }
     }
 }
@@ -29,5 +29,5 @@ Time elapsed 00:00:01.2275011
  
 
 This is a Sphere at center (4, 5, 2).
-The Sphere has volumn of 179.594380030216 and surface are of 153.9380400259.
-/********************************* END TEST OUTPUT**************************************
+The Sphere has volumn of 179.59 and surface are of 153.94.
+********************************* END TEST OUTPUT***************************************/
